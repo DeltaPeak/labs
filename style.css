@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+main.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.top-content {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.bottom-left, .bottom-right {
+    display: inline-block;
+    width: 45%;
+}
+
+.bottom-left {
+    float: left;
+}
+
+.bottom-right {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
